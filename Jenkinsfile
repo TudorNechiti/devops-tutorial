@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build('nechititudorr/devops-test')
+        app = docker.build('nechititudorr/devops-tutorial')
     }
 
     stage('Test image') {
